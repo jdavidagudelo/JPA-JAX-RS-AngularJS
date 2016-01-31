@@ -1,0 +1,5 @@
+var sampleApp = angular.module('sampleApp', []);
+
+sampleApp.controller('Samplecontroller', ['$scope', 'Sample', function($scope, Phone) {
+	  $scope.samples = Sample.query();
+	}]);

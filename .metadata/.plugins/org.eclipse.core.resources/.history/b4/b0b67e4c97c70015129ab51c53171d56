@@ -1,0 +1,21 @@
+package com.example.rest;
+
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import model.Sample;
+@XmlRootElement(name="SampleDto")
+public class SampleDto {
+	public SampleDto(){
+		
+		
+	}
+	public SampleDto(Sample s){
+		id = s.getId();
+		text = s.getText();
+	}
+	@XmlAttribute(name="id")
+	private int id;
+	@XmlAttribute(name = "text")
+	private String text;
+}

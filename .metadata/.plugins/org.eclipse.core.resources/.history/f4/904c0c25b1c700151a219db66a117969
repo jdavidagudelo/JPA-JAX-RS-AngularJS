@@ -1,0 +1,8 @@
+var sampleApp = angular.module('sampleApp', []);
+
+sampleApp.controller('sampleController', ['$scope', function($scope) {
+	var samples = $resource("http://localhost:8080/SimpleProject/rest/SampleRest/getAll");
+	samples.query({}, function(arrayResult) {
+        $scope.samples = arrayResult;
+    });
+	}]);

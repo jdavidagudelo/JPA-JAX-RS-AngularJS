@@ -1,0 +1,47 @@
+2015-07-19 16:00:39,960  WARN [ModalContext] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:00:39,972  WARN [ModalContext] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:00:43,722  WARN [Worker-11] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:00:43,723  WARN [Worker-11] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:02:09,071  WARN [Worker-11] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:02:09,072  WARN [Worker-11] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:02:09,179  WARN [Worker-11] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:02:09,180  WARN [Worker-11] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:06:15,415  WARN [Worker-4] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:06:15,455  WARN [Worker-4] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:07:55,965  WARN [Java indexing] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:07:55,967  WARN [Java indexing] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:07:57,426  WARN [Worker-5] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:07:57,451  WARN [Worker-5] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:07:58,151  WARN [Worker-5] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:08:01,511  WARN [Worker-5] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:08:04,157  WARN [Worker-5] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:08:04,174  WARN [Worker-5] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:09:26,771  WARN [Worker-6] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:09:26,772  WARN [Worker-6] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:09:26,816  WARN [Worker-6] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:09:26,816  WARN [Worker-6] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:09:27,059  WARN [Worker-6] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:09:27,060  WARN [Worker-6] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:09:27,135  WARN [Worker-6] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:09:27,136  WARN [Worker-6] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:09:27,945  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:09:27,950  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:09:31,042  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-19 16:17:12,223  WARN [Worker-10] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:17:12,224  WARN [Worker-10] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:17:12,371  WARN [Worker-10] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:17:12,372  WARN [Worker-10] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:19:49,234  WARN [Worker-12] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:19:49,235  WARN [Worker-12] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:19:49,368  WARN [Worker-12] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:19:49,369  WARN [Worker-12] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:22:41,871  WARN [Worker-10] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:22:41,871  WARN [Worker-10] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:22:42,069  WARN [Worker-10] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:22:42,070  WARN [Worker-10] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:25:17,039  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-19 16:25:17,256  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-19 16:26:03,440  WARN [Worker-18] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:26:03,441  WARN [Worker-18] - ScalaProject - Project Scala runs on platform default installation.
+2015-07-19 16:26:03,707  WARN [Worker-18] - ScalaProject - Project Scala has platform default sourceLevel.
+2015-07-19 16:26:03,708  WARN [Worker-18] - ScalaProject - Project Scala runs on platform default installation.

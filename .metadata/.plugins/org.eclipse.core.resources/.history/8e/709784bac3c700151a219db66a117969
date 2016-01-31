@@ -1,0 +1,9 @@
+var createApp = angular.module('createApp', ['createServices']);
+
+createApp.controller('createController', ['$scope', 'SampleById', function($scope, SampleById) {
+	var id = window.location.search.split("=")[1];
+	  $scope.sample = SampleById.get({id:id}, function() {
+		  var s = $scope.sample;
+		  var x = "x";
+		});
+	}]);

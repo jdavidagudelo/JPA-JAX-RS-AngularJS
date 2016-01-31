@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;dao.Abstractdao.java&apos; to &apos;AbstractDao.java&apos;&#x0A;- Original project: &apos;Model&apos;&#x0A;- Original element: &apos;dao.Abstractdao.java&apos;&#x0A;- Renamed element: &apos;dao.AbstractDao.java&apos;" description="Rename compilation unit &apos;Abstractdao.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;dao{Abstractdao.java" name="AbstractDao.java" references="false" stamp="1454186670087" version="1.0"/>
+</session>

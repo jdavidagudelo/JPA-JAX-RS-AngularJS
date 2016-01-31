@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html ng-app="sampleApp">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="scripts/angular.min.js"></script>
+<script type="text/javascript" src="scripts/controller.js"></script>
+<script type="text/javascript" src="scripts/services.js"></script>
+</head>
+<body>
+
+</body>
+</html>

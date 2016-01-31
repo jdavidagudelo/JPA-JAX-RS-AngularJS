@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="sampleApp">
+<head>
+<meta charset="UTF-8">
+<title>Samples List</title>
+<script src="scripts/bower_components/angular/angular.js"></script>
+<script src="scripts/bower_components/angular-resource/angular-resource.js"></script>
+<script type="text/javascript" src="scripts/services.js"></script>
+<link rel="stylesheet" type="text/css" href="scripts/bower_components/datatables.net-dt/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="scripts/bower_components/jquery/dist/jquery.js"></script>
+
+<script type="text/javascript" charset="utf8" src="scripts/bower_components/datatables.net/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="scripts/controller.js"></script>
+
+</head>
+<body ng-controller="sampleController">
+<a href="create.html?id=0">Create New Sample</a>
+<table id="datatable">
+<thead>
+<tr><th>ID</th><th>Text</th><th>Options</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="sample in samples">
+<td>{{sample.id}}</td><td>{{sample.text}}</td><td><a href="create.html?id={{sample.id}}">Editar</a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

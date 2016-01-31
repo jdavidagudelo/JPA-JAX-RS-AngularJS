@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SampleDaoTest" project="Model" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="model.SampleDaoTest" time="7.114">
+    <testcase name="test" classname="model.SampleDaoTest" time="6.909"/>
+    <testcase name="testCreate" classname="model.SampleDaoTest" time="0.205"/>
+  </testsuite>
+</testrun>

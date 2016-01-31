@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html ng-app="createApp">
+<head>
+<meta charset="UTF-8">
+<title>Modify data of sample</title>
+</head>
+<body ng-controller="createController">
+<label for="textInput">Text: </label>
+<input type="text" id="textInput" ng-model="sample.text">
+</body>
+</html>

@@ -1,0 +1,17 @@
+package dao;
+
+import javax.naming.NamingException;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public abstract class AbstractDao {
+	private EntityManager entityManager = null;
+	public AbstractDao() throws NamingException{
+		entityManager = getEntityManager();
+	}
+	protected EntityManager getEntityManager() throws NamingException {
+	    EntityManagerFactory emf = Persistence.createEntityManagerFactory("Model");
+	    return emf.createEntityManager();
+	  }
+}

@@ -1,0 +1,7 @@
+var sampleApp = angular.module('sampleApp', ['sampleServices']);
+
+sampleApp.controller('sampleController', ['$scope', function($scope) {
+	$http.get('http://localhost:8080/SimpleProject/rest/SampleRest/getAll').success(function(data) {
+		  $scope.samples = data;
+		});
+	}]);

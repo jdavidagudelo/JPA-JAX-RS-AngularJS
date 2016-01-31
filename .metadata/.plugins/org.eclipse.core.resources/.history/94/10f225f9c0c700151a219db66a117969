@@ -1,0 +1,7 @@
+var createApp = angular.module('createApp', ['sampleServices']);
+
+createApp.controller('createController', ['$scope', 'SampleById', function($scope, SampleById) {
+	  $scope.sample = SampleById.get({}, function() {
+		  
+		});
+	}]);

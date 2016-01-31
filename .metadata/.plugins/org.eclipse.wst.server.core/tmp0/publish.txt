@@ -1,0 +1,3 @@
+#Tomcat publish data
+#Sat Jan 30 22:14:04 COT 2016
+org.eclipse.jst.j2ee.server\:Model=WEB-INF/lib/Model.jar

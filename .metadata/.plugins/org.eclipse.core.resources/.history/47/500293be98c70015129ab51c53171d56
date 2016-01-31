@@ -1,0 +1,50 @@
+package com.example.rest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.naming.NamingException;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import dao.SampleDao;
+import model.Sample;
+ 
+@Path("/SampleRest")
+public class SampleRest {
+	private SampleDao sampleDao;
+	public SampleRest() throws NamingException {
+		sampleDao = new SampleDao();
+	}
+	
+	@GET
+	@Path("/getAll")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<SampleDto> getAll() throws NamingException{
+		List<SampleDto> result = new ArrayList<>();
+		for(Sample s: sampleDao.getAll()){
+			
+			result.add(new SampleDto(s));
+		}
+		return result;
+	}
+	@GET
+	@Path("/getById/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public SampleDto getById(@PathParam(value="id")int id){
+		return new SampleDto(sampleDao.getById(id));
+	}
+	@POST
+	@Path("insert")
+	public SampleDto insert(SampleDto sample){
+		Sample created = new Sample();
+		created.setText(sample.getText());
+		return new SampleDto(sampleDao.create(created));
+	}
+ 
+}

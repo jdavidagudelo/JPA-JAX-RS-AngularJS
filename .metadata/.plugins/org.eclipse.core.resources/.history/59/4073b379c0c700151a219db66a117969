@@ -1,0 +1,7 @@
+var createServices = angular.module('sampleServices', ['ngResource']);
+
+
+createServices.factory('SampleById', ['$resource',
+                                  function($resource){
+                                    return $resource('http://localhost:8080/SimpleProject/rest/SampleRest/getById/:id', {id: "@id"});
+                                    }]);

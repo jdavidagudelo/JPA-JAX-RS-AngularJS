@@ -1,0 +1,21 @@
+package model;
+
+import static org.junit.Assert.*;
+
+import javax.naming.NamingException;
+
+import org.junit.Test;
+
+import dao.SampleDao;
+
+public class SampleDaoTest {
+
+	@Test
+	public void test() throws NamingException {
+		SampleDao sampleDao = new SampleDao();
+		for(Sample s: sampleDao.getAll()){
+			System.out.println(s.getText()+" "+s.getId());
+		}
+	}
+
+}

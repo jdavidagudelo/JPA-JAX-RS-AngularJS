@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="sampleApp">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="scripts/bower_components/angular/angular.js"></script>
+<script src="scripts/bower_components/angular-resource/angular-resource.js"></script>
+<script type="text/javascript" src="scripts/controller.js"></script>
+<script type="text/javascript" src="scripts/services.js"></script>
+<link rel="stylesheet" type="text/css" href="scripts/bower_components/datatables.net-dt/css/jquery.dataTables.css">
+
+</head>
+<body ng-controller="sampleController">
+<table id="datatable">
+<thead>
+<tr><th>ID</th><th>Text</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="sample in samples">
+<td>{{sample.id}}</td><td>{{sample.text}}</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

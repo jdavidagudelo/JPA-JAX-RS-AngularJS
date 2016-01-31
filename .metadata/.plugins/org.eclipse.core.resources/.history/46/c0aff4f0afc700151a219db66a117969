@@ -1,0 +1,5 @@
+var sampleApp = angular.module('sampleApp', ['sampleServices']);
+
+sampleApp.controller('sampleController', ['$scope', 'Sample', function($scope, Sample) {
+	  $scope.samples = Sample.query().SampleDto;
+	}]);

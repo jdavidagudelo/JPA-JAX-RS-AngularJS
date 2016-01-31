@@ -1,0 +1,21 @@
+package dao;
+
+import java.util.List;
+
+import javax.naming.NamingException;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import model.Sample;
+
+public class SampleDao {
+	protected EntityManager getEntityManager() throws NamingException {
+	    EntityManagerFactory emf = Persistence.createEntityManagerFactory("Model");
+	    return emf.createEntityManager();
+	  }
+	public List<Sample> getAll() throws NamingException {
+		List<Sample> result = (List<Sample>)getEntityManager().createNamedQuery("Sample.findAll");
+		return result;
+	}
+}
